@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Volunteer Abroad</title>
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Slabo+27px|Taviraj" rel="stylesheet">
+        <!--font-family: 'Taviraj', serif;
+        font-family: 'Slabo 27px', serif;-->
+        <link href="stylesheet.css" rel="stylesheet" />
+    </head>
+    <body>
+        <header>
+            <h1 id="top">Volunteer Abroad!</h1>
+            <h4>Looking for a volunteer position?</h4>
+            <h4>Check it out!</h4>
+        </header>
+        <div class="logoAndGreeting">
+            <div class="logo">
+                
+            </div>
+            <div class="greeting">
+                
+            </div>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="./page_destination.html"><i class="fa fa-globe" aria-hidden="true"></i> destinations</a></li>
+                <li><a href="./positions.html"><i class="fa fa-gavel" aria-hidden="true"></i> positions</li>
+                <li><a href="./price.html"><i class="fa fa-money" aria-hidden="true"></i> price</a></li>
+                <li><a href="./questions.html"><i class="fa fa-question" aria-hidden="true"></i> questions</a></li>
+                <li><a href="./links.html"><i class="fa fa-link" aria-hidden="true"></i> links</a></li>
+                <li><a href="./contact.html"><i class="fa fa-phone-square" aria-hidden="true"></i> contact</a></li>
+            </ul>
+        </div>
+        <content>
+            <countries class="article" id="destinations">
+                <h3><i class="fa fa-plane" aria-hidden="true"></i>&nbsp; Where can I work?</h3>
+                <div class="region">
+                <ul>
+                    <li>Africa</li>
+                    <li>Asia</li>
+                    <li>Central America</li>
+                    <li>Eastern Europe</li>
+                    <li>South America</li>
+                </ul>
+                </div>
+                <div>
+                    <img class="world_map" src="./images/worldmap.jpg" alt="world map" />
+                </div>
+                <a href="#top">Top</a>
+            </countries>
+            <positions class="article" id="positions">
+                <h3><i class="fa fa-gavel" aria-hidden="true"></i> What can I do?</h3>
+                <p>What you will be doing depends on your interest!</p>
+                <p>Here are some examples of volunteer positions</p>
+                <ul class="job_list">
+                    <li>care</li>
+                    <li>teaching</li>
+                    <li>conservation AND environment</li>
+                    <li>sports</li>
+                    <li>archaeology</li>
+                    <li>building</li>
+                    <li>agriculture AND farming</li>
+                    <li>creative AND performing arts</li>
+                </ul>
+                <a href="#top">Top</a>
+            </positions>
+            <price class="article" id="price">
+                <h3><i class="fa fa-money" aria-hidden="true"></i> How much is it?</h3>
+                <p>It depends on the country and program you choose, but the range is from $2,000 ~ $6,000</p>
+                <a href="#top">Top</a>
+            </price>
+            <questions class="article" id="questions">
+                <h3><i class="fa fa-question" aria-hidden="true"></i> Questions</h3>
+                    <p>1. Language requirement?</p>
+                    <p> - English is used, but for some destinations, you may have to be able to have basic conversations (Chinese, French, etc.)</p>
+                    <p>2. What do prices include?</p>
+                    <p> - It includes food, transportation, insurance, and etc.</p>
+                    <p>3. How old do I have to be?</p>
+                    <p> - It also depends on the program, but the minimum age is 16</p>
+                    <p>4. What are the steps?</p>
+                    <p> - Choose your program -> Application -> Get your visa -> Abroad!</p>
+                    <a href="#top">Top</a>
+            </questions>
+            <links class="article" id="links">
+                <h3><i class="fa fa-link" aria-hidden="true"></i> Where can I apply?</h3>
+                <p>Here are some useful links!</p>
+                <p>You can apply for your volunteer job here</p>
+                <img_container>
+                <a href="http://www.govolunteer.ca/"><img src="./images/govolunteer.png" alt="govolunteer" class="image" /></a>
+                <a href="https://www.volunteerforever.com/"><img src="./images/volunteerforever.jpg" alt="volunteerforever" class="image" /></a>
+                <a href="https://www.uvolunteer.net/project-destination.php"><img src="./images/uvolunteer.jpg" alt="uvolunteer" class="image" /></a>
+                <a href="http://www.projects-abroad.ca/"><img src="./images/projectabroad.jpg" alt="project abroad" class="image" /></a>
+                </img_container>
+                <br />
+                <br />
+                <a href="#top">Top</a>
+            </links>
+            <contact class="article" id="contact">
+                <h3><i class="fa fa-phone-square" aria-hidden="true"></i> Contact Information</h3>
+                <p>If there is any question, please let me know!</p>
+                <ul>
+                    <li><i class="fa fa-phone-square fa-lg"></i> 604 - 000 - 0000</li>
+                    <li><i class="fa fa-envelope fa-lg"></i><a href="mailto:genesisparadox@gmail.com"> genesisparadox@gmail.com</a></li>
+                    <li><i class="fa fa-facebook-official fa-lg"></i><a href="https://www.facebook.com/profile.php?id=676338979"> David LEE</a></li>
+                </ul>
+                <a href="#top">Top</a>
+            </contact>
+            <copyright>
+                <h3> &copy; 2016 - website built by Doe Hoon LEE </h3>
+            </copyright>
+        </content>
+    </body>
+</html>
