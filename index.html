@@ -1,26 +1,150 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Volunteer Abroad</title>
+        <title>Volunteer Abroad - main</title>
         <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css?family=Slabo+27px|Taviraj" rel="stylesheet">
-        <!--font-family: 'Taviraj', serif;
-        font-family: 'Slabo 27px', serif;-->
-        <link href="stylesheet.css" rel="stylesheet" />
+        <style>
+* {
+    text-align: center;
+}
+            
+            
+html {
+    background-color: #d6d9db;
+}
+
+body {
+    max-width: 1000px;
+    margin: auto;
+    font-family: 'Slabo 27px', serif;
+}            
+
+.main_board {
+    background-color: #303336;
+    color: aliceblue;
+    border: 5px solid aliceblue;
+    margin-top: 3%;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+    font-family: 'Taviraj', serif;
+    max-width: 100%;
+    width: 100%;
+    height: 300px;
+    padding-top: 60px;
+}
+
+.main_board h4 {
+    font-size: 20px;
+}
+
+.main_board h1 {
+    font-size: 40px;
+}
+
+.main_board p {
+    font-size: 20px;
+}
+          
+.btn_explore {
+    background-color: #303336;
+    color: aliceblue;
+    border: 5px solid aliceblue;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+    font-family: 'Slabo', serif;
+    max-width: 100%;
+    width: 350px;
+    height: 5%;
+}
+ 
+.btn_explore a {
+    margin: auto;
+    font-size: 28px;
+}            
+            
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    height: 40px;
+}
+            
+.navbar {
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+            
+.navbar ul {
+    background-color: #303336;
+    border: 3px solid aliceblue;
+    font-weight: 400;
+    width: 100%
+}
+
+.navbar li {
+    display: inline-block;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 28px;
+}
+            
+.navbar a {
+    color: aliceblue;
+}
+
+.fa-globe:hover {
+    font-size: 110%;
+}
+            
+.fa-gavel:hover {
+                font-size: 110%;
+            }
+            
+.fa-money:hover {
+                font-size: 110%;
+            }
+            
+.fa-question:hover {
+    font-size: 110%;
+}
+            
+.fa-link:hover {
+    font-size: 110%;
+}
+            
+.fa-phone-square:hover {
+    font-size: 110%;
+}
+            
+.btn_explore a:hover {
+    font-size: 30px;
+}
+
+}
+        </style>
     </head>
     <body>
-        <header>
-            <h1 id="top">Volunteer Abroad!</h1>
-            <h4>Looking for a volunteer position?</h4>
-            <h4>Check it out!</h4>
-        </header>
-        <div class="logoAndGreeting">
-            <div class="logo">
-                
-            </div>
-            <div class="greeting">
-                
-            </div>
+        <div class="main_board">
+            <h4>Welcome to...</h4>
+            <h1>VOLUNTEER ABROAD!!</h1>
+            <p>Information on the..</p>
+            <p>destination, job descriptions, and price</p>
         </div>
         <div class="navbar">
             <ul>
@@ -32,83 +156,15 @@
                 <li><a href="./contact.html"><i class="fa fa-phone-square" aria-hidden="true"></i> contact</a></li>
             </ul>
         </div>
-        <content>
-            <countries class="article" id="destinations">
-                <h3><i class="fa fa-plane" aria-hidden="true"></i>&nbsp; Where can I work?</h3>
-                <div class="region">
-                <ul>
-                    <li>Africa</li>
-                    <li>Asia</li>
-                    <li>Central America</li>
-                    <li>Eastern Europe</li>
-                    <li>South America</li>
-                </ul>
-                </div>
-                <div>
-                    <img class="world_map" src="./images/worldmap.jpg" alt="world map" />
-                </div>
-                <a href="#top">Top</a>
-            </countries>
-            <positions class="article" id="positions">
-                <h3><i class="fa fa-gavel" aria-hidden="true"></i> What can I do?</h3>
-                <p>What you will be doing depends on your interest!</p>
-                <p>Here are some examples of volunteer positions</p>
-                <ul class="job_list">
-                    <li>care</li>
-                    <li>teaching</li>
-                    <li>conservation AND environment</li>
-                    <li>sports</li>
-                    <li>archaeology</li>
-                    <li>building</li>
-                    <li>agriculture AND farming</li>
-                    <li>creative AND performing arts</li>
-                </ul>
-                <a href="#top">Top</a>
-            </positions>
-            <price class="article" id="price">
-                <h3><i class="fa fa-money" aria-hidden="true"></i> How much is it?</h3>
-                <p>It depends on the country and program you choose, but the range is from $2,000 ~ $6,000</p>
-                <a href="#top">Top</a>
-            </price>
-            <questions class="article" id="questions">
-                <h3><i class="fa fa-question" aria-hidden="true"></i> Questions</h3>
-                    <p>1. Language requirement?</p>
-                    <p> - English is used, but for some destinations, you may have to be able to have basic conversations (Chinese, French, etc.)</p>
-                    <p>2. What do prices include?</p>
-                    <p> - It includes food, transportation, insurance, and etc.</p>
-                    <p>3. How old do I have to be?</p>
-                    <p> - It also depends on the program, but the minimum age is 16</p>
-                    <p>4. What are the steps?</p>
-                    <p> - Choose your program -> Application -> Get your visa -> Abroad!</p>
-                    <a href="#top">Top</a>
-            </questions>
-            <links class="article" id="links">
-                <h3><i class="fa fa-link" aria-hidden="true"></i> Where can I apply?</h3>
-                <p>Here are some useful links!</p>
-                <p>You can apply for your volunteer job here</p>
-                <img_container>
-                <a href="http://www.govolunteer.ca/"><img src="./images/govolunteer.png" alt="govolunteer" class="image" /></a>
-                <a href="https://www.volunteerforever.com/"><img src="./images/volunteerforever.jpg" alt="volunteerforever" class="image" /></a>
-                <a href="https://www.uvolunteer.net/project-destination.php"><img src="./images/uvolunteer.jpg" alt="uvolunteer" class="image" /></a>
-                <a href="http://www.projects-abroad.ca/"><img src="./images/projectabroad.jpg" alt="project abroad" class="image" /></a>
-                </img_container>
-                <br />
-                <br />
-                <a href="#top">Top</a>
-            </links>
-            <contact class="article" id="contact">
-                <h3><i class="fa fa-phone-square" aria-hidden="true"></i> Contact Information</h3>
-                <p>If there is any question, please let me know!</p>
-                <ul>
-                    <li><i class="fa fa-phone-square fa-lg"></i> 604 - 000 - 0000</li>
-                    <li><i class="fa fa-envelope fa-lg"></i><a href="mailto:genesisparadox@gmail.com"> genesisparadox@gmail.com</a></li>
-                    <li><i class="fa fa-facebook-official fa-lg"></i><a href="https://www.facebook.com/profile.php?id=676338979"> David LEE</a></li>
-                </ul>
-                <a href="#top">Top</a>
-            </contact>
-            <copyright>
-                <h3> &copy; 2016 - website built by Doe Hoon LEE </h3>
-            </copyright>
-        </content>
+        <div class="or">
+            <p>OR</p>
+            <p>just click here to..</p>
+        </div>
+        <div class="btn_explore">
+            <a href="./singlepage.html">See Everything in One Page</a>
+        </div>
+        <copyright>
+            <h3> &copy; 2016 - website built by Doe Hoon LEE </h3>
+        </copyright>
     </body>
 </html>
