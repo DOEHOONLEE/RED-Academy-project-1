@@ -1,0 +1,136 @@
+/*GENERAL*/
+* {
+    text-align: center;
+}
+            
+            
+html {
+    background-color: #d6d9db;
+}
+
+body {
+    max-width: 1000px;
+    margin: auto;
+    font-family: 'Slabo 27px', serif;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    height: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.fa-globe:hover {
+    font-size: 110%;
+}
+            
+.fa-gavel:hover {
+                font-size: 110%;
+            }
+            
+.fa-money:hover {
+                font-size: 110%;
+            }
+            
+.fa-question:hover {
+    font-size: 110%;
+}
+            
+.fa-link:hover {
+    font-size: 110%;
+}
+            
+.fa-phone-square:hover {
+    font-size: 110%;
+}
+            
+.btn_explore a:hover {
+    font-size: 30px;
+}
+
+/*header*/
+.main_board {
+    background-color: #303336;
+    color: aliceblue;
+    border: 5px solid aliceblue;
+    margin-top: 3%;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+    font-family: 'Taviraj', serif;
+    max-width: 100%;
+    width: 100%;
+    height: 300px;
+    padding-top: 60px;
+}
+
+.main_board h4 {
+    font-size: 20px;
+}
+
+.main_board h1 {
+    font-size: 40px;
+}
+
+.main_board p {
+    font-size: 20px;
+}
+/*navbar*/
+            
+.navbar {
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+            
+.navbar ul {
+    background-color: #303336;
+    border: 3px solid aliceblue;
+    font-weight: 400;
+    width: 100%
+}
+
+.navbar li {
+    display: inline-block;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 28px;
+}
+            
+.navbar a {
+    color: aliceblue;
+}
+
+/*button*/
+.btn_explore {
+    background-color: #303336;
+    color: aliceblue;
+    border: 5px solid aliceblue;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+    font-family: 'Slabo', serif;
+    max-width: 100%;
+    width: 350px;
+    height: 5%;
+}
+ 
+.btn_explore a {
+    margin: auto;
+    font-size: 28px;
+}
+
+/*copyright*/
