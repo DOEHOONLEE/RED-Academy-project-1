@@ -21,7 +21,7 @@ ul {
     padding: 0;
 }
             
-header {
+.header {
     background-color: #303336;
     color: aliceblue;
     border: 3px solid aliceblue;
@@ -33,7 +33,7 @@ header {
     width: 100%
 }
 
-header h1 {
+.header h1 {
     font-family: 'Taviraj', serif;
 }
 
@@ -76,13 +76,13 @@ questions p:nth-child(2n) {
     font-weight: 900;
 }
         
-img_container {
+.img_container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-img_container a {
+.img_container a {
     display: inline-block;
     margin-bottom: 8px;
     width: 22%;
@@ -100,13 +100,13 @@ img_container a {
 }
 
 @media screen and (min-width: 500px) {
-    img_container {
+    .img_container {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
     }
     
-    img_container a {
+    .img_container a {
         text-align: center;
         display: inline-block;
         margin-bottom: 8px;
@@ -115,13 +115,13 @@ img_container a {
 }
 
 @media screen and (min-width: 1000px) {
-    img_container {
+    .img_container {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
     }
     
-    img_container a {
+    .img_container a {
         text-align: center;
         display: inline-block;
         margin-bottom: 8px;
@@ -165,7 +165,7 @@ contact {
 
 a {
     text-decoration: none;
-    color: black;
+    color: aliceblue;
 }
 
 contact li:hover {
